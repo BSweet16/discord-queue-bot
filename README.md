@@ -12,22 +12,21 @@ Comands:
 The bot will remove the commands, if typed correctly, in order to prevent spam. Also to reduce spam, the bot will show the current ranked queue after each command typed, but will then be automatically removed after 5 minutes.
 
 
-====================
 Control of the bot
 ====================
 
 node index.js - Start locally
 
-===== Server Bot =====
-Use the following commands through SSH to start the bot: 
-Start and persist through SSH: node index.js > console_error.txt > console_output.txt &
+- Server
+	Use the following commands through SSH to start the bot: 
+	Start and persist through SSH: node index.js > console_error.txt > console_output.txt &
 
-Look at active background processes: ps -ax | grep node
-Kill the process running in the background: kill -9 {ProcessNum}
-	Obtain the {ProcessNum} after looking at the active background processes.
-Use "Exit" when finished, before closing console.
+	Look at active background processes: ps -ax | grep node
+	Kill the process running in the background: kill -9 {ProcessNum}
+		Obtain the {ProcessNum} after looking at the active background processes.
+	Use "Exit" when finished, before closing console.
 
-====================
+
 Installation
 ====================
 
