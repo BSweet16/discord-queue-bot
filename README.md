@@ -33,7 +33,7 @@ Installation
 
 How to get a token: https://www.writebots.com/discord-bot-token/
 *If using this bot on your own, you will need to setup your own config.json of the format:*
-{<br/>
+<br/>{<br/>
 	"prefix": "+",<br/>
 	"token": *Censored*<br/>
 }<br/>
