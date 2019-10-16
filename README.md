@@ -2,14 +2,15 @@ TopCaliber Ranked Bot
 ====================
 This Discord Bot is created in order to maintain a crowd of people all wanting to play together. Due to the nature of the video game, only a certain number of players can play at once, therefore some must wait. This bot manages those people waiting and attempts to streamline them into joining with the group of people already playing once they are ready.<br/><br/>
 
-Comands: <br/>
-+me 			- Add yourself to the queue.<br/>
--me 			- Remove yourself from the queue.<br/>
--remove {user}	- Removes 'user' from the queue.<br/>
--next			- Removes first user and announces its their turn<br/>
--clear or ?view	- Clears the current queue<br/>
-?list or ?view	- Displays the current queue.<br/>
-<br/>
+Commands:
+
+* +me 			- Add yourself to the queue.
+* -me 			- Remove yourself from the queue.
+* -remove {user}	- Removes 'user' from the queue.
+* -next			- Removes first user and announces its their turn
+* -clear or ?view	- Clears the current queue
+* ?list or ?view	- Displays the current queue.
+
 The bot will remove the commands, if typed correctly, in order to prevent spam. Also to reduce spam, the bot will show the current ranked queue after each command typed, but will then be automatically removed after 5 minutes.
 
 
@@ -32,8 +33,12 @@ Installation
 ====================
 
 How to get a token: https://www.writebots.com/discord-bot-token/
-<br/>*If using this bot on your own, you will need to setup your own config.json of the format:*
-<br/>{<br/>
-	"prefix": "+",<br/>
-	"token": *Censored*<br/>
-}<br/>
+
+*If you're using this bot on your own, you will need to setup your own config.json in this format:*
+
+```json
+{
+	"prefix": "+",
+	"token": "token"
+}
+```
