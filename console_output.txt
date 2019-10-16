@@ -1,0 +1,11 @@
+Ready!
+Caliber joined queue.
+Queue list will be deleted in 5 minutes.
+Queue list deleted.
+Caliber displayed the queue.
+Queue list will be deleted in 5 minutes.
+Queue list deleted.
+It'sCaliber's turn!
+Queue list will be deleted in 5 minutes.
+Queue list deleted.
+Caliber displayed the queue.
