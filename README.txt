@@ -26,3 +26,14 @@ Look at active background processes: ps -ax | grep node
 Kill the process running in the background: kill -9 {ProcessNum}
 	Obtain the {ProcessNum} after looking at the active background processes.
 Use "Exit" when finished, before closing console.
+
+====================
+Installation
+====================
+
+How to get a token: https://www.writebots.com/discord-bot-token/
+*If using this bot on your own, you will need to setup your own config.json of the format:*
+{
+	"prefix": "+",
+	"token": *Censored*
+}
