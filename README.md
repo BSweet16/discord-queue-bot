@@ -24,7 +24,7 @@ node index.js - Start locally
 
 	<br/>Look at active background processes: ps -ax | grep node
 	<br/>Kill the process running in the background: kill -9 {ProcessNum}
-		<br/></t></t>Obtain the {ProcessNum} after looking at the active background processes.
+		<br/>Obtain the {ProcessNum} after looking at the active background processes.
 	<br/>Use "Exit" when finished, before closing console.
 
 
