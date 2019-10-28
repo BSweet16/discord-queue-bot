@@ -18,8 +18,8 @@ Control of the bot
 
 node index.js - Start locally
 
-- Linux Server
-	Use the following commands through SSH to start the bot: 
+- Linux Server 
+	<br/>Use the following commands through SSH to start the bot: 
 	<br/>Start and persist through SSH: node index.js > console_error.txt > console_output.txt &
 	<br/>Look at active background processes: ps -ax | grep node
 	<br/>Kill the process running in the background: kill -9 {ProcessNum}
